@@ -1,7 +1,8 @@
 {
   "private": true,
   "workspaces": [
-    "site-a"
+    "site-a",
+    "./shared/*"
   ],
   "dependencies": {
     "netlify-cli": "^10.5.1"

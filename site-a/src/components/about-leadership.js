@@ -11,6 +11,7 @@ import {
   Kicker,
   Space,
 } from "./ui"
+import testString from "@monorepo-test/components";
 
 function AboutProfile(props) {
   return (
@@ -42,6 +43,7 @@ export default function AboutLeadership(props) {
   return (
     <Section>
       <Container width="tight">
+        <span>{testString}</span>
         <Box center paddingY={4}>
           {props.kicker && <Kicker>{props.kicker}</Kicker>}
           {props.heading && <Heading as="h1">{props.heading}</Heading>}
