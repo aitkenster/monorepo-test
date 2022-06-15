@@ -11,7 +11,7 @@ import {
   Kicker,
   Space,
 } from "./ui"
-import testString from "@monorepo-test/components";
+import testString from "../../../shared/components";
 
 function AboutProfile(props) {
   return (
