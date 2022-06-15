@@ -1,7 +1,7 @@
 {
   "private": true,
   "workspaces": [
-    "gatsby-starter-contentful-homepage"
+    "site-a"
   ],
   "dependencies": {
     "netlify-cli": "^10.5.1"
